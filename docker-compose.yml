@@ -1,0 +1,21 @@
+version: "3.1"
+services:
+  bot:
+    build: .
+    links:
+      - factorio
+    env_file:
+      - .env.local
+    restart: always
+  factorio:
+    image: didstopia/factorio-server
+    environment:
+      TZ: Europe/Helsinki
+      FACTORIO_WORLD_NAME: "Docker"
+      #FACTORIO_SERVER_SETTINGS: /factorio/data/server-settings.json
+      FACTORIO_PORT: '34197 --rcon-port 34198 --rcon-password docker'
+    volumes:
+      - ./.docker/factorio:/factorio
+    ports:
+      - 34197:34197/udp
+      - 34198:34198/tcp

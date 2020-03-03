@@ -1,0 +1,6 @@
+.docker/
+.db/
+.vscode/
+.env*
+coverage.txt
+factoriobot

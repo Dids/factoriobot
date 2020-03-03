@@ -6,6 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/Dids/factoriobot/rcon"
 	_ "github.com/joho/godotenv/autoload"
 )
 
@@ -15,6 +16,8 @@ func main() {
 	log.Println("---  FactorioBot  ---")
 	log.Println("---------------------")
 	log.Println("")
+
+	rcon.Connect()
 
 	// Initialize our own event handler
 	// eventHandler = eventhandler.EventHandler{Name: "rustbot", Listeners: nil}
@@ -30,7 +33,7 @@ func main() {
 
 	// TODO: Shouldn't we follow the same logic here, so having a separate "Open()" function?
 	// Initialize the Webrcon Client (opens the connection automatically)
-	webrcon.Initialize(&eventHandler, database)
+	// webrcon.Initialize(&eventHandler, database)
 
 	// TODO: Implement and setup event handlers for both Discord and Webrcon clients, so they can pass messages between each other
 

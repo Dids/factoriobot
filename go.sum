@@ -1,0 +1,8 @@
+github.com/chuckpreslar/rcon v0.0.0-20131006172849-b1ce2dd120fd h1:YVAiAgOzxHxt7oz2hT29jdpvNJOJV2JYnISI1LoKezU=
+github.com/chuckpreslar/rcon v0.0.0-20131006172849-b1ce2dd120fd/go.mod h1:Dg+fYvxN4F8Rmr9DeyaMPckvnMq6rDyMU98775KaBgw=
+github.com/gtaylor/factorio-rcon v0.0.0-20170109054031-61bdfe779ea6 h1:EKfjwkDEooszNoSo7oYcGluDzhRvPso/ksZnEI98tW4=
+github.com/gtaylor/factorio-rcon v0.0.0-20170109054031-61bdfe779ea6/go.mod h1:5iDjR4TEISfNnO+1qwroiRrvxGYHBXQlq4XtYbLnDGQ=
+github.com/james4k/rcon v0.0.0-20120923215419-8fbb8268b60a h1:JxcWget6X/VfBMKxPIc28Jel37LGREut2fpV+ObkwJ0=
+github.com/james4k/rcon v0.0.0-20120923215419-8fbb8268b60a/go.mod h1:1qNVsDcmNQDsAXYfUuF/Z0rtK5eT8x9D6Pi7S3PjXAg=
+github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
+github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=

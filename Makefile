@@ -3,7 +3,7 @@ export GO111MODULE=on
 export PATH := $(GOPATH)/bin:$(PATH)
 
 BINARY_VERSION?=0.0.1
-BINARY_OUTPUT?=rustbot
+BINARY_OUTPUT?=factoriobot
 EXTRA_FLAGS?=-mod=vendor
 
 .PHONY: all install build test clean deps upgrade

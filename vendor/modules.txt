@@ -2,9 +2,9 @@
 ## explicit
 # github.com/gtaylor/factorio-rcon v0.0.0-20170109054031-61bdfe779ea6
 ## explicit
+github.com/gtaylor/factorio-rcon
 # github.com/james4k/rcon v0.0.0-20120923215419-8fbb8268b60a
 ## explicit
-github.com/james4k/rcon
 # github.com/joho/godotenv v1.3.0
 ## explicit
 github.com/joho/godotenv
